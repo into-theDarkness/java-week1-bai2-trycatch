@@ -20,7 +20,7 @@ public class ArrayExample {
         System.out.println("Vui long nhap chi so cua 1 phan tu bat ki: ");
         int x = scanner.nextInt();
         try{
-            System.out.println("gia tri cua phan tu co chi so 5 " + x + " la " + arr[x]);
+            System.out.println("gia tri cua phan tu co chi so " + x + " la " + arr[x]);
         } catch (IndexOutOfBoundsException e){
             System.err.println("chi so vuot qua gioi han cua mang");
         }
